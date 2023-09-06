@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fasthand&family=Libre+Baskerville&family=Ubuntu&display=swap');
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    display :flex;
+    flex-direction: column;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    /* box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; */
+}
+
+.left img{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.container{
+    color : white;
+    position: relative;
+    /* padding:10 10vw; */
+    width: 100vw;
+    height: 70px;
+    /* background:; */
+    /* margin: 13px 0px; */
+    background-color: #000080;
+    justify-content: center;
+    align-items: center;
+}
+
+.l1{
+    margin-top: 8px;
+}
+
+nav ul li{
+    /* it helps to remove the points before the list */
+    list-style: none; 
+    padding: 0 12px; /*top-bottom se 0, left-right se 12px*/
+}
+
+.section1{
+    background: #d7d9d1;
+    height: 100vh;
+}
+
+.homeImg{
+    margin-top: 12px;
+    width: 80vw;
+}
+
+.LOGIN{
+    margin-top: 5px;
+    margin-bottom: 7px;
+    position :absolute ;
+    right: 160px;
+    /* margin-left: 1000px; */
+
+    background-color: yellow;
+    width: 100px;
+    height: 40px;
+    /* font-weight: bolder; */
+    /* font-size: 30px; */
+}
+
+.Start_Selling{
+    position :absolute ;
+    right: 50px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    background-color: yellow;
+    width: 100px;
+    height: 40px;
+    /* font-weight: bolder; */
+    /* font-size: 30px; */
+    /* margin-left: 20px; */
+
+}
+
+.box{
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+    height: 500px;
+    /* weight: 300px; */
+    background-color: #0b1820;
+    border: 2px solid #2980b9;
+
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    /* display: block;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-left: 300px; */
+}
+
+#username{
+    margin-top: 20px;
+    width: 500px;
+}
+
+

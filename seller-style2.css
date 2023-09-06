@@ -1,0 +1,47 @@
+.flex{
+    display:flex;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.semibold{
+    font-weight: bolder;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.mx-2{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.desktop-searchBar{
+    margin-top: 10px;
+    height: 25px;
+    width: 350px;
+    background-color:beige ;
+}
+
+/* <label for="username">Name :</label>
+               <input type="text" id="username" name="username">            
+               <label for="username">Address :</label>
+               <input type="text" id="username" name="username">            
+               <label for="username">Email :</label>
+               <input type="text" id="username" name="username">            
+               <label for="username">Product Description :</label>
+               <input type="text" id="username" name="username">            
+               <label for="username">Selling Price :</label>
+               <input type="text" id="username" name="username">           */
